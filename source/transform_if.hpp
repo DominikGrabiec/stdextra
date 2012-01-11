@@ -5,7 +5,7 @@
 namespace stdextra
 {
 
-	template <class InputIterator, class OutputIterator, class Predicate, class UnaryFunction>
+	template <typename InputIterator, typename OutputIterator, typename Predicate, typename UnaryFunction>
 	inline OutputIterator transform_if(InputIterator _first, InputIterator _last, OutputIterator _dest, Predicate _pred, UnaryFunction _func)
 	{
 		for (; _first != _last; ++_first)
@@ -19,7 +19,7 @@ namespace stdextra
 	}
 
 
-	template <class InputIterator1, class InputIterator2, class OutputIterator, class BinaryPredicate, class BinaryFunction>
+	template <typename InputIterator1, typename InputIterator2, typename OutputIterator, typename BinaryPredicate, typename BinaryFunction>
 	inline OutputIterator transform_if(InputIterator1 _first1, InputIterator1 _last1, InputIterator2 _first2, OutputIterator _dest, BinaryPredicate _pred, BinaryFunction _func)
 	{
 		for (; _first1 != _last1; ++_first1, ++_first2)
