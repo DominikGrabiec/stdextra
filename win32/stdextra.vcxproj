@@ -12,6 +12,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\source\transform_if.hpp" />
+    <ClInclude Include="..\source\type_checks.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E966D737-2D4A-4400-B450-649F86CDB900}</ProjectGuid>
